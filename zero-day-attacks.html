@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Cybersecurity Topics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cybersecurity Topics</h1>
+        <nav>
+            <a href="index.html">Back to Topics</a>
+        </nav>
+    </header>
+    <main>
+        <section id="zero-day-attacks">
+            <h2>Zero-Day Attacks</h2>
+            <p>A <strong>Zero-Day Attack</strong> is a cyberattack that exploits a software vulnerability that is unknown to the software vendor and has not yet been patched. Since there is no official fix available, attackers can exploit the flaw before the vendor becomes aware of it and creates a patch.
+            <br><strong>Why is it Called "Zero-Day"?</strong> The term "zero-day" refers to the fact that the software vendor has "zero days" to address the vulnerability. Once the vulnerability is disclosed, the vendor must rush to develop and release a patch before attackers exploit it.
+            <br><strong>Zero-Day Vulnerability:</strong> A software flaw that is unknown to the vendor or developer, leaving it unpatched and vulnerable to exploitation.
+            <br><strong>Zero-Day Exploit:</strong> Code or methods used by attackers to exploit the vulnerability before a patch is released.
+            </p>
+
+            <br><strong>How Zero-Day Attacks Work:</strong>
+            <ul>
+                <li><strong>Discovery:</strong> A vulnerability is discovered in software (often by hackers or researchers). If hackers discover it first, they can exploit it in secret.</li>
+                <li><strong>Exploit Creation:</strong> Attackers develop code or methods that exploit the discovered vulnerability.</li>
+                <li><strong>Attack Execution:</strong> The exploit is deployed against targeted systems, often before any security patches or defenses are available.</li>
+                <li><strong>Post-attack Remediation:</strong> Once the vulnerability is discovered by the vendor or security researchers, a patch is developed and distributed, but by then, damage may have been done.</li>
+            </ul>
+
+            <br><strong>Common Targets for Zero-Day Attacks:</strong>
+            <ul>
+                <li><strong>Operating Systems:</strong> Windows, Linux, macOS, and mobile OS platforms like Android and iOS can be targeted if they have unpatched vulnerabilities.</li>
+                <li><strong>Web Browsers:</strong> Zero-day attacks are commonly found in widely used browsers such as Google Chrome, Firefox, or Microsoft Edge.</li>
+                <li><strong>Popular Applications:</strong> Office suites, media players, or other widely deployed software may contain unknown flaws that can be exploited.</li>
+                <li><strong>Firmware and Hardware:</strong> Zero-day attacks can also target firmware in networking devices, servers, and IoT devices, where vulnerabilities may remain undiscovered for longer periods.</li>
+            </ul>
+
+            <br><strong>Examples of Zero-Day Attacks:</strong>
+            <ul>
+                <li><strong>Stuxnet (2010):</strong> Stuxnet, one of the most famous zero-day attacks, targeted Iran's nuclear facilities by exploiting multiple zero-day vulnerabilities in Microsoft Windows to sabotage industrial systems. It is considered one of the most sophisticated cyberweapons ever created.</li>
+                <li><strong>Microsoft Windows Exploit (2021):</strong> In 2021, a critical zero-day vulnerability in Microsoft Windows (CVE-2021-40444) was exploited in the wild to deliver malware via malicious Office documents.</li>
+                <li><strong>Google Chrome Zero-Day (2022):</strong> Google Chrome has experienced multiple zero-day vulnerabilities, one of which in 2022 (CVE-2022-1096) was exploited in real-world attacks, prompting an urgent security update.</li>
+            </ul>
+
+            <br><strong>Methods to Protect Against Zero-Day Attacks:</strong>
+            <ul>
+                <li><strong>Patch Management:</strong> Applying patches and updates immediately once they become available reduces the time a system remains vulnerable to known flaws.</li>
+                <li><strong>Behavioral Analytics:</strong> Since zero-day attacks target unknown vulnerabilities, using advanced security tools that detect abnormal behavior in systems can help detect potential zero-day exploitation.</                li>
+                <li><strong>Application Whitelisting:</strong> Restricting which applications are allowed to run on systems can help reduce the risk of zero-day attacks.</li>
+                <li><strong>Network Security Tools:</strong> Implementing firewalls, intrusion detection/prevention systems (IDS/IPS), and advanced endpoint protection can help identify and block malicious activity related to zero-day exploits.</li>
+                <li><strong>Threat Intelligence:</strong> Using threat intelligence services that monitor and provide real-time updates on emerging vulnerabilities and attacks can help organizations stay ahead of zero-day threats.</li>
+                <li><strong>Zero-Trust Architecture:</strong> A zero-trust model ensures that no one is trusted automatically, and verification is required at every stage. This can help limit the impact of zero-day attacks if a system is compromised.</li>
+            </ul>
+
+            <br><strong>Challenges in Defending Against Zero-Day Attacks:</strong>
+            <ul>
+                <li><strong>Unknown Threat:</strong> Zero-day attacks exploit unknown vulnerabilities, making it difficult to defend against them using traditional security methods.</li>
+                <li><strong>Rapid Spread:</strong> Once a zero-day exploit becomes publicly known, it can spread rapidly as attackers race to exploit it before patches are applied.</li>
+                <li><strong>Advanced Techniques:</strong> Zero-day attackers often use sophisticated and stealthy techniques that can evade detection by standard security tools.</li>
+                <li><strong>Delayed Patch Distribution:</strong> Some vendors may take longer to release patches for discovered vulnerabilities, increasing the window of risk for users.</li>
+            </ul>
+
+            <br><strong>How Organizations Handle Zero-Day Vulnerabilities:</strong>
+            <ul>
+                <li><strong>Bug Bounties:</strong> Many organizations offer bug bounty programs, rewarding ethical hackers for discovering and reporting vulnerabilities before they can be exploited by malicious attackers.</li>
+                <li><strong>Emergency Patching:</strong> When zero-day vulnerabilities are discovered, software vendors often issue emergency patches and security updates to mitigate the risks.</li>
+                <li><strong>Security Monitoring:</strong> Organizations use continuous monitoring, threat intelligence services, and intrusion detection systems to detect and respond to zero-day attacks as quickly as possible.</li>
+                <li><strong>Sandboxing:</strong> Organizations isolate potentially dangerous processes or applications to reduce the damage a zero-day attack could cause.</li>
+            </ul>
+
+            <br><strong>Example:</strong> In 2020, Google Chrome faced a critical zero-day vulnerability (CVE-2020-16009) that was exploited to allow remote code execution. The vulnerability was quickly patched by Google after it was discovered, but the attack highlighted the risks of zero-day threats to widely used software.
+        </section>
+    </main>
+</body>
+</html>

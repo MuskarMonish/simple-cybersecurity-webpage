@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Topics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cybersecurity Topics</h1>
+        <nav>
+            <a href="index.html">Back to Topics</a>
+        </nav>
+    </header>
+    <main>
+        <section id="public-key-infrastructure">
+            <h2>Public Key Infrastructure (PKI)</h2>
+            <p>Public Key Infrastructure (PKI) is a framework used to create, manage, distribute, use, store, and revoke digital certificates and public-private key pairs. It plays a vital role in securing communications, data transmission, and ensuring the authenticity and integrity of digital transactions.
+            <br><strong>Key Components of PKI:</strong>
+            <ul>
+                <li><strong>Certificate Authority (CA):</strong> The trusted entity responsible for issuing and managing digital certificates. CAs verify the identity of entities before issuing certificates.</li>
+                <li><strong>Registration Authority (RA):</strong> Acts as a mediator between the user and the Certificate Authority. It verifies user credentials before passing them to the CA for certificate issuance.</li>
+                <li><strong>Digital Certificates:</strong> Electronic documents that use public keys to authenticate users, devices, or servers. A common type is the SSL/TLS certificate used for secure web browsing.</li>
+                <li><strong>Public and Private Keys:</strong> PKI uses a pair of cryptographic keys – a public key (shared openly) and a private key (kept secure by the owner) – to encrypt and decrypt data.</li>
+                <li><strong>Certificate Revocation List (CRL):</strong> A list of digital certificates that have been revoked before their expiration date, making them invalid.</li>
+                <li><strong>Key Management:</strong> The process of managing cryptographic keys in a secure manner, including key generation, distribution, storage, and destruction.</li>
+            </ul>
+            <br><strong>How PKI Works:</strong>
+            <ul>
+                <li><strong>Step 1:</strong> A user requests a digital certificate from a CA by proving their identity through an RA.</li>
+                <li><strong>Step 2:</strong> The CA issues the digital certificate containing the public key and the identity information of the user or entity.</li>
+                <li><strong>Step 3:</strong> The digital certificate is distributed to others for secure communication and authentication.</li>
+                <li><strong>Step 4:</strong> The private key is used by the certificate owner to decrypt messages and verify signatures.</li>
+                <li><strong>Step 5:</strong> If the certificate needs to be revoked (e.g., due to compromise), it is added to the CRL to prevent further use.</li>
+            </ul>
+            <br><strong>Uses of PKI:</strong>
+            <ul>
+                <li><strong>Secure Email Communication:</strong> PKI is used to encrypt emails and ensure that only intended recipients can read the messages. Digital signatures verify the sender’s identity.</li>
+                <li><strong>Web Security (SSL/TLS):</strong> PKI enables HTTPS by providing SSL/TLS certificates for web servers, ensuring encrypted data transmission between servers and clients.</li>
+                <li><strong>Authentication and Access Control:</strong> PKI is used in multi-factor authentication systems to verify users and devices before granting access to secure networks or systems.</li>
+                <li><strong>Digital Signatures:</strong> PKI is used to create digital signatures that authenticate the sender and guarantee the integrity of documents, emails, and software.</li>
+            </ul>
+            <br><strong>Example:</strong> A financial institution uses PKI to secure online banking. SSL/TLS certificates protect customers’ transactions, encrypting sensitive data like account numbers and passwords. Additionally, digital certificates authenticate both the server and the user during login.
+            </p>
+            <br><strong>Challenges of PKI:</strong>
+            <ul>
+                <li>Managing and scaling PKI infrastructure across large organizations can be complex and resource-intensive.</li>
+                <li>The security of PKI relies heavily on the proper management and protection of private keys.</li>
+                <li>Revocation of certificates and the management of Certificate Revocation Lists (CRLs) can be difficult, especially in distributed environments.</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

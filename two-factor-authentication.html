@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Cybersecurity Topics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cybersecurity Topics</h1>
+        <nav>
+            <a href="index.html">Back to Topics</a>
+        </nav>
+    </header>
+    <main>
+        <section id="two-factor-authentication">
+            <h2>Two-Factor Authentication (2FA)</h2>
+            <p>Two-Factor Authentication (2FA) is a security mechanism that requires two forms of identification before granting access to an account or system. It adds an additional layer of security beyond just a username and password, helping protect against unauthorized access.
+            <br><strong>How 2FA Works:</strong>
+            <ul>
+                <li><strong>Step 1:</strong> The user enters their username and password (first factor).</li>
+                <li><strong>Step 2:</strong> The user is then prompted to provide a second form of verification, typically from one of the following categories:
+                    <ul>
+                        <li><strong>Something you know:</strong> A password, PIN, or a response to a security question.</li>
+                        <li><strong>Something you have:</strong> A physical token, smartphone, or authentication app that generates a unique code.</li>
+                        <li><strong>Something you are:</strong> Biometric data like a fingerprint, face scan, or retina scan.</li>
+                    </ul>
+                </li>
+            </ul>
+            <br><strong>Types of Two-Factor Authentication:</strong>
+            <ul>
+                <li><strong>SMS-Based 2FA:</strong> A verification code is sent to the user via SMS after entering the correct password. Example: Many banking and social media services use this method for account protection.</li>
+                <li><strong>Authenticator App:</strong> Apps like Google Authenticator or Authy generate time-based one-time passwords (TOTP) that users enter as their second factor. Example: Logging into a Google account after inputting the generated code from Google Authenticator.</li>
+                <li><strong>Hardware Tokens:</strong> Physical devices like YubiKeys generate unique codes or connect via USB for the second factor. Example: A YubiKey inserted into a computer when logging into a secure system.</li>
+                <li><strong>Biometric 2FA:</strong> This requires fingerprint scanning, facial recognition, or retina scans. Example: Unlocking your phone using Face ID or a fingerprint scanner.</li>
+                <li><strong>Email-Based 2FA:</strong> A code is sent to the user’s registered email address as the second factor. Example: Logging into an email service that sends a one-time code to the user’s email inbox for verification.</li>
+            </ul>
+            <br><strong>Advantages of Two-Factor Authentication:</strong>
+            <ul>
+                <li>Significantly reduces the risk of account compromise due to stolen passwords.</li>
+                <li>Helps prevent brute force and phishing attacks by requiring an additional form of verification.</li>
+                <li>Increases user confidence that their accounts are well-protected.</li>
+                <li>Easy to implement for users and widely supported across many platforms and services.</li>
+            </ul>
+            <br><strong>Disadvantages of Two-Factor Authentication:</strong>
+            <ul>
+                <li>SMS-based 2FA can be vulnerable to SIM-swapping attacks, where attackers take control of the victim’s phone number.</li>
+                <li>If users lose access to their second factor (e.g., their phone or token), it may prevent them from logging in.</li>
+                <li>It may add inconvenience for some users who prefer not to go through the extra steps for authentication.</li>
+            </ul>
+            <br><strong>Use Cases for 2FA:</strong>
+            <ul>
+                <li><strong>Financial Services:</strong> Banks and financial institutions often use 2FA to secure online banking, preventing unauthorized access to sensitive financial information.</li>
+                <li><strong>Email Services:</strong> Gmail, Outlook, and other email providers offer 2FA to protect against email account hijacking, which could lead to identity theft.</li>
+                <li><strong>Social Media:</strong> Platforms like Facebook, Twitter, and Instagram support 2FA to protect user accounts from unauthorized access and prevent hacking incidents.</li>
+                <li><strong>Enterprise Systems:</strong> Many businesses require employees to use 2FA to secure access to corporate networks, cloud services, and internal systems.</li>
+            </ul>
+            <br><strong>Example:</strong> A user logging into their bank account must first provide their username and password, followed by a one-time code generated by their authentication app. This code expires after 30 seconds, ensuring that it cannot be reused by attackers.
+        </section>
+    </main>
+</body>
+</html>

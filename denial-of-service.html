@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Topics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cybersecurity Topics</h1>
+        <nav>
+            <a href="index.html">Back to Topics</a>
+        </nav>
+    </header>
+    <main>
+        <section id="denial-of-service">
+            <h2>Denial of Service (DoS)</h2>
+            <p>A Denial of Service (DoS) attack aims to make a service unavailable to its intended users by overwhelming it with a flood of illegitimate requests. This can lead to reduced performance or complete shutdown of the targeted service.
+            <br><strong>Types of DoS Attacks:</strong>
+            <ul>
+                <li><strong>Volume-Based Attacks:</strong> These attacks aim to consume the bandwidth of the target. Example: UDP floods, ICMP floods.</li>
+                <li><strong>Protocol Attacks:</strong> These target weaknesses in the protocols of the network. Example: SYN floods, Ping of Death.</li>
+                <li><strong>Application Layer Attacks:</strong> These focus on exhausting server resources. Example: HTTP floods that aim to overwhelm web servers.</li>
+            </ul>
+            <br><strong>Distributed Denial of Service (DDoS):</strong> A more sophisticated form of DoS, where multiple compromised systems (often part of a botnet) launch an attack simultaneously, making it harder to mitigate.
+            <br><strong>Example:</strong> The 2016 DDoS attack on Dyn, a DNS service provider, disrupted major websites like Twitter, Netflix, and Reddit by overwhelming Dyn's servers with traffic from a large botnet.</p>
+            <br><strong>Mitigation Strategies:</strong>
+            <ul>
+                <li>Implementing rate limiting to control the number of requests a server can handle.</li>
+                <li>Using firewalls and intrusion detection systems to filter out malicious traffic.</li>
+                <li>Employing content delivery networks (CDNs) to absorb and mitigate attack traffic.</li>
+                <li>Having a robust incident response plan to quickly react to attacks.</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
